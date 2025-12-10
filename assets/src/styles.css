@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+#primary-menu ul {
+    @apply flex space-x-6;
+}
+
+#primary-menu li a {
+    @apply text-gray-700 hover:text-blue-600 transition-colors;
+}
+
+#mobile-menu ul {
+    @apply flex flex-col space-y-2;
+}
+
+#mobile-menu li a {
+    @apply block py-2 text-gray-700 hover:text-blue-600 transition-colors;
+}
+
+.prose {
+    @apply text-gray-800 leading-relaxed;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+    @apply font-bold text-gray-900 mt-6 mb-4;
+}
+
+.prose p {
+    @apply mb-4;
+}
+
+.prose a {
+    @apply text-blue-600 hover:text-blue-800 underline;
+}
+
+.prose img {
+    @apply rounded-lg my-6;
+}
