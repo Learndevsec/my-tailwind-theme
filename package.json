@@ -1,0 +1,17 @@
+{
+  "name": "my-tailwind-theme",
+  "version": "1.0.0",
+  "description": "WordPress theme with Tailwind CSS",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/src/styles.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss -i ./assets/src/styles.css -o ./dist/style.css --minify"
+  },
+  "keywords": ["wordpress", "theme", "tailwind"],
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
