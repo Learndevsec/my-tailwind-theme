@@ -7,6 +7,9 @@ function my_tailwind_theme_setup() {
     
     register_nav_menus(array(
         'primary' => __('Primary Menu', 'my-tailwind-theme'),
+        // === ADDED NEW MENU LOCATION HERE ===
+        'secondary_quick_links' => __('Secondary Quick Links', 'my-tailwind-theme'),
+        // ====================================
     ));
 }
 add_action('after_setup_theme', 'my_tailwind_theme_setup');
